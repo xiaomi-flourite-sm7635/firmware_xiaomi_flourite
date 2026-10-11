@@ -31,7 +31,7 @@ prebuilts, unpack the Chinese filesystem partitions first:
 
 ```sh
 python3 tools/extract-utils/extract.py --keep-images -- /absolute/path/to/china
-./device/xiaomi/flourite/extract-files.py /absolute/path/to/global \
+PYTHONPATH=tools/extract-utils python3 device/xiaomi/flourite/extract-files.py /absolute/path/to/global \
     --china-source /absolute/path/to/china
 ```
 
