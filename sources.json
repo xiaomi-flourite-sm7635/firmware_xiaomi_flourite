@@ -1,0 +1,350 @@
+{
+  "global-306": {
+    "release": "OS3.0.306.0.WPRMIXM",
+    "incremental": "16OS3.1.260912.004820804.QCPEGL.S",
+    "ota": "flourite_global-ota_full-OS3.0.306.0.WPRMIXM-user-16.0-f308281484.zip",
+    "ota_sha256": "477ff1a2555cad54bc24273e32320198432a780e75a79df10a435cb492bc34f3",
+    "partitions": {
+      "abl.img": {
+        "size": 307200,
+        "sha256": "69fc1834549ac373a9d6c158b4994ed06f11b81d565929e544ead5bd46b614f0"
+      },
+      "aop.img": {
+        "size": 315392,
+        "sha256": "5fb517258faaa25ed6a836428b59c9acf32a0a05436d8ae9d646c307b2ac3050"
+      },
+      "aop_config.img": {
+        "size": 20480,
+        "sha256": "0cdbf6db6e56cf142d150b499686d2b64df94b95baf88afe663293f837fef8df"
+      },
+      "bluetooth.img": {
+        "size": 749568,
+        "sha256": "cdedb718fe32ad24716cf361d5aad4717736662219453b7d158b8722af2f7fc6"
+      },
+      "boot.img": {
+        "size": 100663296,
+        "sha256": "278ebe70fe78c77094061e0fad8a211c82c3316fa2f5619c621146ee4c85f99c"
+      },
+      "countrycode.img": {
+        "size": 1048576,
+        "sha256": "53f19dcc858bcb846599451448ff45ae4d90fc8e3c4272be4e4a010af98f27d8"
+      },
+      "cpucp.img": {
+        "size": 204800,
+        "sha256": "31c91c915b6bb7bbd8dc95f493d39bec12ff76659383d82b9438c4141cd15c8c"
+      },
+      "cpucp_dtb.img": {
+        "size": 12288,
+        "sha256": "6b98aeeee3419c75e5af19808592a69f36cc62123f9d9ad72be152780a41fda3"
+      },
+      "devcfg.img": {
+        "size": 49152,
+        "sha256": "de400b3eca17217ef42345b03fd9e3443797f9a68e750b69b0be3b1526d14a4a"
+      },
+      "dsp.img": {
+        "size": 67108864,
+        "sha256": "47fe50b6f029503d64def37d1b3f2b874cbbb5daaa361fced538e9dddc949652"
+      },
+      "dtbo.img": {
+        "size": 20971520,
+        "sha256": "2aca7ea2bd99dc2ec56c1b456c35fd4a0bc2f53b21a765b57b33b05e96abecf1"
+      },
+      "featenabler.img": {
+        "size": 106496,
+        "sha256": "4820280ca1af5839ca6c8956322c199e0002483c22a202028bd368a7aad6948e"
+      },
+      "hyp.img": {
+        "size": 1486848,
+        "sha256": "d1043cff4ec3e93dddf71d0b8b38d7a8b2496732eb636c93e62b10eec3abb7f9"
+      },
+      "imagefv.img": {
+        "size": 6299648,
+        "sha256": "bf23fb42342987b71d9b6b375e1d9f81c30344bfd2c1389710995149e5d1882d"
+      },
+      "init_boot.img": {
+        "size": 8388608,
+        "sha256": "36f3c7e7182a659b0bd467e7e8f512251ebb3b9100311532d6da836ddbfcde5f"
+      },
+      "keymaster.img": {
+        "size": 442368,
+        "sha256": "6465491033910c717584b33a29c95bd8f35eac2dfe24876a1fa2b9f12e8ff06c"
+      },
+      "mi_ext.img": {
+        "size": 1007611904,
+        "sha256": "65b4002f3363bf4c5c49476294f45620e90652de937f8b0a29b71da5115ab99b"
+      },
+      "modem.img": {
+        "size": 252620800,
+        "sha256": "a8c61ee953834d635cbe28be6b43173e5459d17deaad15f1e63e7dcd11cfd4dc"
+      },
+      "odm.img": {
+        "size": 1816899584,
+        "sha256": "ec9bc3cb5ccf648f94c4148f14fe1d7e30c0bd33ec92650aa22b405e7e4dc434"
+      },
+      "product.img": {
+        "size": 3650682880,
+        "sha256": "2d085fb369a614b8f39a0c0b75cbbfef1e2a855ddfeb8b61d82db6ceaee79ac6"
+      },
+      "qupfw.img": {
+        "size": 61440,
+        "sha256": "0838814ae34b2f04a7d5d0a9f518e6b94cc0dd4c8ec09a3d6b2edd824548051f"
+      },
+      "recovery.img": {
+        "size": 104857600,
+        "sha256": "6407b11f12010730699c25e07fc108daf6339775e3739fbb2efa16b27c226a2b"
+      },
+      "shrm.img": {
+        "size": 53248,
+        "sha256": "797528968cb342c661cdb3f11da85988e1304d472e296b2ca9328031e53af2f2"
+      },
+      "system.img": {
+        "size": 716951552,
+        "sha256": "d6c1542adb0866ec55da3a68e8a45ff9e08dcfa7619734fcb4d02f24999bcb55"
+      },
+      "system_dlkm.img": {
+        "size": 14934016,
+        "sha256": "bee15df8176176a70226b081b4c19eb3959e5e125b9ca5f955a9cc4be2933786"
+      },
+      "system_ext.img": {
+        "size": 634290176,
+        "sha256": "f0fcd45e2df5467d80b2dc563987b5a447ac0a4a1e5651e21e7dcab10ada71c2"
+      },
+      "tz.img": {
+        "size": 3985408,
+        "sha256": "1d29f5d04767be0e32f9b66b620405ac034bb94345a64a3edad706f02c05a594"
+      },
+      "uefi.img": {
+        "size": 2904064,
+        "sha256": "ec4c313a374a8958231e9574a21460fae7f471d09807013aaea2c9d695eeec41"
+      },
+      "uefisecapp.img": {
+        "size": 200704,
+        "sha256": "0a2b73056b051f6da5f9ec4813f764d8b25bf2ba34b007f0e7572b19d03a7c09"
+      },
+      "vbmeta.img": {
+        "size": 12288,
+        "sha256": "0218681202b86ad01afb2163b56679543de257cf489dca2e9dd27e2e1a5d0528"
+      },
+      "vbmeta_system.img": {
+        "size": 4096,
+        "sha256": "dd057b5e9d81de9e79edbfcd50a5e349b7966b527646389867c88e9e2fcba164"
+      },
+      "vendor.img": {
+        "size": 779374592,
+        "sha256": "77f2236625f7719318255e5120c6ec66142c3ac3d140dbc1b155d0c7b77e80c9"
+      },
+      "vendor_boot.img": {
+        "size": 100663296,
+        "sha256": "d9df99ebcaf2e7825e5bb18ef5427a058044d33a2df0cd3fe3fca5217f0d6e7a"
+      },
+      "vendor_dlkm.img": {
+        "size": 29552640,
+        "sha256": "e40eb833a2f271ef5c6bec7246bd1c8041dfadddbb0d40adcc7dcbb9a2b2adb2"
+      },
+      "xbl.img": {
+        "size": 1163264,
+        "sha256": "ce40f4b3518061b87f61ac38a7f09758b33065acdd3a820943120be116cb3e27"
+      },
+      "xbl_config.img": {
+        "size": 303104,
+        "sha256": "01ff72e83264310e6fdcd603e0577c9412eed1630e614830d23101b09f998b5a"
+      },
+      "xbl_ramdump.img": {
+        "size": 909312,
+        "sha256": "9dfd854ab24ae58ad4f83da58ed50dbba12da18ca145aa8777cedfe956458baf"
+      }
+    },
+    "parts": {
+      "global-306-raw.tar.zst.part000": {
+        "size": 1992294400,
+        "sha256": "c5dda1e43b1ae2dc3e0294f6c1d00724c65ed618069205e500c600794bd7317d"
+      },
+      "global-306-raw.tar.zst.part001": {
+        "size": 1992294400,
+        "sha256": "138e6392bcb6d57e57e4ded94a68b9708131a2053d4f99a07cc0fabc78e02683"
+      },
+      "global-306-raw.tar.zst.part002": {
+        "size": 1992294400,
+        "sha256": "e4d7e8c32b84e328afc438f29ce1fa7c4a07ceaf2f5b074bee3b0fb5d6e3affe"
+      },
+      "global-306-raw.tar.zst.part003": {
+        "size": 1270498877,
+        "sha256": "05d5d824c8c98cba1f569e5ea13187ad44a9743f0b36eed6bb168edd89411405"
+      }
+    }
+  },
+  "china-318": {
+    "release": "OS3.0.318.0.WPRCNXM",
+    "incremental": "16OS3.1.260921.212522566.QCPECN.S",
+    "ota": "flourite-ota_full-OS3.0.318.0.WPRCNXM-user-16.0-baed5e3613.zip",
+    "ota_sha256": "b06387e4383c36588459245e319a04f8dd6221e6fcaa0612d3ccbb566aa075b3",
+    "partitions": {
+      "abl.img": {
+        "size": 307200,
+        "sha256": "6e1ebf6aeefc877d1e10c3c22ae231d50984121f376b843a0587a89238593532"
+      },
+      "aop.img": {
+        "size": 315392,
+        "sha256": "0d18dae9b927a1ab10164926494b77903c16186b25fa22d12b1b9ec9f2f9f348"
+      },
+      "aop_config.img": {
+        "size": 20480,
+        "sha256": "bb36ef7939266ade67d45f8a1621f7e0fa61c1ef6b1eab76b660db7fa4d87516"
+      },
+      "bluetooth.img": {
+        "size": 749568,
+        "sha256": "921eda056e3b49ab90b588d21bae1e351aa57987332b3354357891434ae7642b"
+      },
+      "boot.img": {
+        "size": 100663296,
+        "sha256": "7984144cd6da78aa6e7c9d50249bc0bb5891da1331cdfd967141d79d1073cf6f"
+      },
+      "countrycode.img": {
+        "size": 1048576,
+        "sha256": "5f6c17317f8ac065bc11c22b7bac79e15daf7d8ad156b3b9389f0711096dcf68"
+      },
+      "cpucp.img": {
+        "size": 204800,
+        "sha256": "51f38e9c758b928e05c31d497ecb3b1981771db197530cf98991c21eb68e814d"
+      },
+      "cpucp_dtb.img": {
+        "size": 12288,
+        "sha256": "3c4ce5cd55b7b6728c66375a31c23cb3511e249a4c959caf4cff397ffb186f8a"
+      },
+      "devcfg.img": {
+        "size": 49152,
+        "sha256": "396b657dd5da365a88395aa542891ff25cb9472df8c7e9b7fe047e46f593a5ce"
+      },
+      "dsp.img": {
+        "size": 67108864,
+        "sha256": "7b61e391d347a3f830b7915e09ac04119de20979001140e8620e47b4bd58e7bf"
+      },
+      "dtbo.img": {
+        "size": 20971520,
+        "sha256": "a18e12bec85152c131599c82f06394e6d0fbaacc0bb5744c6af5b497a4fb601b"
+      },
+      "featenabler.img": {
+        "size": 106496,
+        "sha256": "8cb683c7b354e916771025e1641675751e7f4f08ac468f2736506a79d5c3d266"
+      },
+      "hyp.img": {
+        "size": 1486848,
+        "sha256": "9be0f86241da2e3692d490f108f5fcee57dfd5b475e373b137edad474894346d"
+      },
+      "imagefv.img": {
+        "size": 6299648,
+        "sha256": "13fcaddce9a94d5d991307111e0fb586e3940d6cbedcce2cecd0d05b3d86e584"
+      },
+      "init_boot.img": {
+        "size": 8388608,
+        "sha256": "c5557ab286d0866d427189540719cd3d7deae67552c646a9b45c18f5c7ce6eac"
+      },
+      "keymaster.img": {
+        "size": 442368,
+        "sha256": "9265ab8c7885959ba3da49f390bc6397dc06379abc5b615167b317ff00fa570b"
+      },
+      "mi_ext.img": {
+        "size": 57688064,
+        "sha256": "fb6106755f30b1d84c2fd521aab2744ed022fa26d508a8009ecfb4a044c7e671"
+      },
+      "modem.img": {
+        "size": 236826624,
+        "sha256": "8d69189c6f17bdd623431d3b228105b0534be894b5dba29404d563becbb61046"
+      },
+      "odm.img": {
+        "size": 1809563648,
+        "sha256": "6a48b6f9d89b55a9817ab2496bf77c69bf53833a945e4ff05f250d2650483265"
+      },
+      "product.img": {
+        "size": 4685242368,
+        "sha256": "603aaa9426e285405cf71d07569403cfe8455c7c5aa6fd23c4ba5c9e49a3f502"
+      },
+      "qupfw.img": {
+        "size": 61440,
+        "sha256": "c88f2bf3222e78ecfe9b5f8004baea7ca2d6549b46cd2fba2dd1e02b2433a276"
+      },
+      "recovery.img": {
+        "size": 104857600,
+        "sha256": "2d048d8674a9b4d3dda90df9dd9e15082bfd357cab7e3ff9b220353d9bc9b140"
+      },
+      "shrm.img": {
+        "size": 53248,
+        "sha256": "6766f4d3c541c934f28dd844bb007bbda36645da01fea2e1eeac668104864400"
+      },
+      "system.img": {
+        "size": 912171008,
+        "sha256": "82740edf365e1fde7bc5b376bd051c29d7acbe905ed139e7cf43abc09c7bd0d8"
+      },
+      "system_dlkm.img": {
+        "size": 14934016,
+        "sha256": "47e7209f4a0f761c86fdc72159aec1468755ea919641b63e066b3c6cbdb0d5dc"
+      },
+      "system_ext.img": {
+        "size": 705273856,
+        "sha256": "0a418116657b9d1d6c05a9dc8ccfeac25dddbcce8efc66da4f3e6df391772e95"
+      },
+      "tz.img": {
+        "size": 3985408,
+        "sha256": "4a53547b22934149b3d9b923a71e6f8fba932b76945475cbb11da6b94d6a1e2c"
+      },
+      "uefi.img": {
+        "size": 2904064,
+        "sha256": "20c45b1947e1029d8acf981fc16ae7676fb79fd5ed5fb51a947e50221f05a010"
+      },
+      "uefisecapp.img": {
+        "size": 200704,
+        "sha256": "9448903ea0f890d0fe7e991d6420c8bbd189eeb0d1680385e145bffef88a0e1e"
+      },
+      "vbmeta.img": {
+        "size": 12288,
+        "sha256": "87d290bb5bc27e361e9f07278cedc153a1aaaa4c5ce4b0581217e03128920c7e"
+      },
+      "vbmeta_system.img": {
+        "size": 4096,
+        "sha256": "baad6dc6eda39cfcb9edfbe43b8a38f4be45af9512529bdd0e6edd6dbd002a36"
+      },
+      "vendor.img": {
+        "size": 809205760,
+        "sha256": "e543957ebee449df2f6fabb4afffcc75e4f7c0e0a2575dcac15c595df1545024"
+      },
+      "vendor_boot.img": {
+        "size": 100663296,
+        "sha256": "161cb021b416c1be582ea52dd702cbab635bde35f5b927addb2c7de2ef6e928e"
+      },
+      "vendor_dlkm.img": {
+        "size": 29577216,
+        "sha256": "bf231b1a2dc32e19ae5312d53db77d15b4911154e2d309c990bf15e09d08842e"
+      },
+      "xbl.img": {
+        "size": 1163264,
+        "sha256": "ef6b7c7605e15ff030d2f5bcc5744ca1b6c56debdf8ffe120c3eba04b4db72d0"
+      },
+      "xbl_config.img": {
+        "size": 303104,
+        "sha256": "c88071a63187bf9fe238831264998d070ae1d0ef7e15753aca7c277a301c9b41"
+      },
+      "xbl_ramdump.img": {
+        "size": 909312,
+        "sha256": "b4edf2dbbaee5695c26c520e8eee4126fca97091f6621bfbc33f1e30ea0632aa"
+      }
+    },
+    "parts": {
+      "china-318-raw.tar.zst.part000": {
+        "size": 1992294400,
+        "sha256": "368e7c5f4857665464eff2406a5d9d6f3cc2dcedb0d75d19b8e689d6717ac789"
+      },
+      "china-318-raw.tar.zst.part001": {
+        "size": 1992294400,
+        "sha256": "da53cf662ac09608879a1899a884967d3217e656cbbe54ac8239e7224c65467e"
+      },
+      "china-318-raw.tar.zst.part002": {
+        "size": 1992294400,
+        "sha256": "6693f93fb0ffaa84c6a158ac51248391c07cdd655b7cc9f0cf5057811d6f0d2c"
+      },
+      "china-318-raw.tar.zst.part003": {
+        "size": 1746899576,
+        "sha256": "ac08883cbce6c5ea3019f7cc8300ee41e7dadf6fa2c98be34e0242a4fd4f417e"
+      }
+    }
+  }
+}
