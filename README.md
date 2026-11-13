@@ -7,7 +7,7 @@ not separate custom ROM builds and not flashable update packages.
 | Source | Role |
 | --- | --- |
 | OS3.0.306.0.WPRMIXM | Global base, shared HALs and firmware |
-| OS3.0.318.0.WPRCNXM | Chinese camera descriptors/tuning and TMS NFC/eSE |
+| OS3.0.318.0.WPRCNXM | Chinese radio firmware, camera descriptors/tuning and TMS NFC/eSE |
 
 Release assets contain every partition present in the corresponding original
 full OTA payload, split into numbered archives below GitHub's per-file limit.
@@ -32,14 +32,18 @@ prebuilts, unpack the Chinese filesystem partitions first:
 ```sh
 python3 tools/extract-utils/extract.py --keep-images -- /absolute/path/to/china
 PYTHONPATH=tools/extract-utils python3 device/xiaomi/flourite/extract-files.py /absolute/path/to/global \
-    --china-source /absolute/path/to/china
+    --china-source /absolute/path/to/china \
+    --global-modem /absolute/path/to/global/modem.img \
+    --china-modem /absolute/path/to/china/modem.img
 ```
 
 Use the matching device tree with `firmware_sources.py` and compatibility
 patch 0006. Its `firmware-sources.json` selects and verifies only the required
-CN additions. Shared files and radio firmware remain sourced from Global;
-do not overlay the entire Chinese dump on the Global dump. The resulting
-vendor supports **one ROM/OTA for all variants**.
+CN additions and both regional modem images. Shared HALs remain sourced from
+Global; do not overlay the entire Chinese dump on the Global dump. Android
+mounts the matching modem image from vendor read-only, selected by hardware
+SKU. Its firmware and MBN profiles update with the ROM, without flashing the
+modem partitions. The resulting vendor supports **one ROM/OTA for all variants**.
 
 The proprietary blobs remain copyrighted by their respective owners. The
 dump does not grant additional rights or constitute official Xiaomi support.
